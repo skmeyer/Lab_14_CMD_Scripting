@@ -49,7 +49,6 @@ public class FileScan
                 System.out.println("No file found! Restart the program and try again.");
                 e.printStackTrace();
             }
-            
         }
         else
         {
