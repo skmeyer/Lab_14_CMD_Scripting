@@ -14,9 +14,6 @@ public class FileScan
             try
             {
                 String fileName = args[0];
-                File selectedFile = new File(fileName);
-                Path file = selectedFile.toPath();
-                InputStream in = new BufferedInputStream(Files.newInputStream(file, CREATE));
                 BufferedReader reader = new BufferedReader(new FileReader(fileName));
                 String rec = "";
                 int wordCount = 0;
