@@ -49,7 +49,6 @@ public class FileScan
                 System.out.println("No file found! Restart the program and try again.");
                 e.printStackTrace();
             }
-            
         }
         else
         {
@@ -58,7 +57,6 @@ public class FileScan
             String rec = "";
             int wordCount = 0;
             int charCount = 0;
-
             try
             {
                 Path workingDirectory = new File(System.getProperty("user.dir")).toPath();
